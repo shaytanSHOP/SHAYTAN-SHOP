@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Покупка софта</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Экран загрузки -->
+    <div id="loading-screen">
+        <img src="https://media1.tenor.com/m/KHPShpmGKlUAAAAd/osint-doxeur.gif" alt="Загрузка...">
+        <p>Загрузка...</p>
+    </div>
+
+    <!-- Вкладки навигации -->
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="software.html">Покупка софта</a></li>
+            <li><a href="forum.html">Форум</a></li>
+            <li><a href="register.html">Регистрация</a></li>
+        </ul>
+    </div>
+
+    <!-- Контейнер для софта -->
+    <div class="software-container">
+        <h2>Покупка софта</h2>
+
+        <!-- Софт блок 1 -->
+        <div class="software-item">
+            <h3>YGROZA - 30$</h3>
+            <p>Мощный инструмент для работы с данными.</p>
+            <button class="buy-btn" onclick="redirectToTelegram()">Купить</button>
+        </div>
+
+        <!-- Софт блок 2 -->
+        <div class="software-item">
+            <h3>WARDEN - 26$</h3>
+            <p>Защита и безопасность для вашего ПК.</p>
+            <button class="buy-btn" onclick="redirectToTelegram()">Купить</button>
+        </div>
+
+        <!-- Софт блок 3 -->
+        <div class="software-item">
+            <h3>Случайный софт - 5$</h3>
+            <p>Простой инструмент для повседневных задач.</p>
+            <button class="buy-btn" onclick="redirectToTelegram()">Купить</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
